@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #3C3C3C;
+}
+
+.sec-bg-white {
+  background-color: #FFFFFF;
+}
+
+.sec-bg-gray {
+  background-color: #F8F9FC;
+}
+
+.sec-pad {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.sec-title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.primary-txt-color {
+  color: #EA3A60;
+}
+
+.secondary-txt-color {
+  color: #363958;
+}
+
+.container {
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.primary-btn {
+  background-color: #EA3A60;
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 50px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.menu-list {
+  float: left;
+}
+
+.menu-item {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #3C3C3C;
+  font-weight: 600;
+  display: block;
+  padding: 30px 15px;
+
+}
+
+.hero {
+  margin-top: 25px;
+}
+
+.hero-title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.hero-content {
+  margin-top: 60px;
+  padding-right: 21%;
+}
+
+.hero-txt {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.hero-side-img {
+  width: 80%;
+  margin-left: 18px;
+}
+
+.about {
+  padding-bottom: 60px;
+}
+
+.about-side-img {
+  width: 79%;
+}
+
+.about-content {
+  margin-top: 40px;
+  padding-left: 120px;
+}
+
+.download-icon {
+  display: inline-block;
+  width: 15px;
+  margin-right: 20px;
+}
+
+.about-txt {
+  line-height: 1.5;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.project {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.project-item {
+  width: 31.33333%;
+  padding: 15px;
+  margin-right: 3%;
+  border-radius: 15px;
+  box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+}
+
+.project-item:last-child {
+  margin-right: 0;
+}
+
+.project-img {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.project-img img {
+  display: inline-block;
+  width: 100%;
+}
+
+.project-title {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+
+.project-txt {
+  color: #6C6C6C;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+
+.testimonial-content {
+  margin-top: 70px;
+  margin-bottom: 90px;
+  width: 60%;
+  margin-left: 20%;
+  padding: 120px 35px 85px;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+  background-image: linear-gradient(to right, #FF2077 , #fd468f);
+}
+
+.testimonial-icon {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  margin-left: -28px;
+}
+
+.testimonial-semicolon {
+  width: 100%;
+  display: block  
+}
+
+.testimonial-txt {
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.author {
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  bottom: -30%;
+  margin-left: -50px;
+}
+
+.author-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.author-icon {
+  width: 100%;
+}
+
+.author-name {
+  font-size: 18px;
+}
+.author-desig {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.call-to-action {
+  width: 70%;
+  margin-left: 15%;
+  padding: 65px;
+  border-radius: 25px;
+  background: url(./img/call-to-action-bg.png) no-repeat 0/100%;
+}
+
+.action-title {
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.contact-content  {
+  text-align: center;
+}
+
+.contact-title {
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 24px;
+  color: #696871;
+  line-height: 1
+}
+
+.contact-email {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  width: 40px;
+  display: inline-block;
+  margin: 0 10px;
+}
